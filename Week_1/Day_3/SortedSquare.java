@@ -1,4 +1,4 @@
-package Summer_Assignment_2401920130144.Week_1.Day_3;
+
 
 public class SortedSquare {
    
