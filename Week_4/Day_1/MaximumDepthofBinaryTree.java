@@ -10,8 +10,6 @@ class TreeNode{
         this.right=null;
     }
 }
-
-
 public class MaximumDepthofBinaryTree {
     public int maxDepth(TreeNode root){
         if(root==null){
