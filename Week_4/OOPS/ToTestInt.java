@@ -1,0 +1,27 @@
+package Week_4.OOPS;
+
+// Interface
+interface Test {
+    int square(int n);
+}
+
+// Implementing class
+class Arithmetic implements Test {
+
+    @Override
+    public int square(int n) {
+        return n * n;
+    }
+}
+
+public class ToTestInt {
+    
+    public static void main(String[] args) {
+
+        Arithmetic obj = new Arithmetic();
+
+        int num = 8;
+        System.out.println("Number = " + num);
+        System.out.println("Square = " + obj.square(num));
+    }
+}
